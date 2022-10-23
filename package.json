@@ -1,28 +1,23 @@
 {
-  "name": "bossa-tech-blog",
+  "name": "newsfeed-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
+    "test": "jest",
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "seeds": "node seeds/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thiago-nasciutti/bossa-tech-blog.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thiago-nasciutti/bossa-tech-blog/issues"
-  },
-  "homepage": "https://github.com/thiago-nasciutti/bossa-tech-blog#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.25.3"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "jest": "^29.2.1"
   }
 }
